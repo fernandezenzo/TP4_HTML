@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="evalcss.css">
+</head>
+<body>
+    <header>
+        <h1>League of Legend</h1>
+        <form method="POST" action="Lol.php">
+            <header id="head1"> <img id="lol1" src="lol.jpg" alt="league of legend">
+            <fieldset>
+                <legend>Contact</legend>
+                <div>
+                    <label for="nom">Nom:<span>*</span></label>
+                    <input type="text" name="nom" placeholder="Ex: Jacques" maxlength="20" id="nom" minlength="2" required>
+                </div>
+                <div>
+                    <label for="email">E-mail:<span>*</span></label>
+                    <input type="text" name="email" placeholder="Ex: exemple@gmail.com" maxlength="20" id="email" minlength="2" required>
+                </div>
+                <div>
+                    <label for="longtext">Laissez un comentaire!</label>
+                <br>
+                    <textarea name="longtext" id="longtext" cols="70" rows="10"></textarea>
+                </div>
+                <div>
+                    <input type="checkbox" id="check1" checked name="check1"> <label for="check1">Envoyez une copie par e-mail!</label>
+                </div>
+                <div>
+                    <input type="submit" value="Envoyer"> 
+                    <input type="reset" value="Reset">
+                </div>
+            </fieldset>
+        </form>
+    </header>
+    <footer>
+        <ul>
+            <li><a href="https://www.vex.com">vex.com</a></li>
+            <li><a href="https://www.yasuo.com">yasuo.com</a></li>
+            <li><a href="https://www.aatrox.com">aatrox.com</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

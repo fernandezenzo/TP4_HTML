@@ -1,0 +1,63 @@
+#lol1{
+    width: 600px;
+    height: 300px;
+}#vex1{
+    width: 200px;
+    height: 100px;
+}
+#yasuo1{
+    width: 200px;
+    height: 100px;
+}
+#aatrox1{
+    width: 200px;
+    height: 100px;
+}
+body{
+    background-image:radial-gradient(at top center, #CCDAE0, #EDF2F4) ;
+}
+#head1{
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+h1{color: #EF233C;
+    font-size: 300%;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+h3{
+    color: #2B2D42;
+    font-size: x-large;
+    font-weight: 700;
+    text-decoration: underline dotted;
+}
+
+section{
+    border: solid 1px;
+}
+img{
+    margin: auto;
+    display: flex;
+    border: solid 1px;
+}
+footer{
+    text-align: right;
+}
+a{
+    color: #D90429;
+}
+a:visited{
+    text-decoration: gray;
+}
+a:hover{
+    color:#2B2D42;
+}
+.lol{
+    border: 1px solid black;
+}
+span{
+    color: red;
+}
